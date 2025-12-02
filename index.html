@@ -8,67 +8,95 @@
 </head>
 <body>
     <div class="contenedor">
-        <!-- Tarjeta de perfil -->
-        <div class="tarjeta-perfil">
+        <header class="tarjeta-perfil">
             <div class="encabezado-perfil">
-                <div class="contenedor-foto">
-                    <img src="yogabito.jpeg" class="foto-perfil" alt="Baltazar Garcia">
-                </div>
+                <figure class="contenedor-foto">
+                    <img src="yogabito.jpeg" class="foto-perfil" alt="Foto de perfil de Baltazar Garcia">
+                </figure>
                 <div class="info-perfil">
                     <h1>Baltazar Garcia</h1>
-                    <div class="item-info">
-                        <span class="etiqueta-info">Número de Legajo:</span>
-                        <span class="valor-info">1222144</span>
-                    </div>
-                    <div class="item-info">
-                        <span class="etiqueta-info">Materia:</span>
-                        <span class="valor-info">Diseño y Desarrollo Web</span>
-                    </div>
-                    <div class="item-info">
-                        <span class="etiqueta-info">Curso:</span>
-                        <span class="valor-info">625597</span>
-                    </div>
+
+                    <dl>
+                        <div class="item-info">
+                            <dt class="etiqueta-info">Número de Legajo:</dt>
+                            <dd class="valor-info">1222144</dd>
+                        </div>
+
+                        <div class="item-info">
+                            <dt class="etiqueta-info">Materia:</dt>
+                            <dd class="valor-info">Diseño y Desarrollo Web</dd>
+                        </div>
+
+                        <div class="item-info">
+                            <dt class="etiqueta-info">Curso:</dt>
+                            <dd class="valor-info">625597</dd>
+                        </div>
+                    </dl>
                 </div>
             </div>
-        </div>
+        </header>
 
-        <!-- Sección de proyectos -->
-        <div class="seccion-proyectos">
-            <h2>Mis Proyectos</h2>
-            <div class="grilla-proyectos">
-                <!-- Proyecto 1 -->
-                <div class="tarjeta-proyecto">
-                    <img src="proyecto_2.png" class="imagen-proyecto" alt="Proyecto 1">
-                    <div class="contenido-proyecto">
-                        <div class="titulo-proyecto">Proyecto 1</div>
-                        <p>FanPage de los simpsons</p>
-                        <a href="https://baltazargarciauade.github.io/actividad_clase3_disenio_web/" target="_blank" class="enlace-proyecto">Ver Proyecto</a>
-                    </div>
-                </div>
+   
+        <main>
+    
+            <section class="seccion-proyectos" aria-labelledby="titulo-proyectos">
+                <h2 id="titulo-proyectos">Mis Proyectos</h2>
 
-                <!-- Proyecto 2 -->
-                <div class="tarjeta-proyecto">
-                    <img src="aureon_proyecto1.png" class="imagen-proyecto" alt="Proyecto 2">
-                    <div class="contenido-proyecto">
-                        <div class="titulo-proyecto">Proyecto 2</div>
-                        <p>Proyecto de tienda de tecnolgia</p>
-                        <a href="https://baltaagarcia.github.io/aureola-js/" target="_blank" class="enlace-proyecto">Ver Proyecto</a>
-                    </div>
-                </div>
+                <div class="grilla-proyectos">
+                    <!-- Proyecto 1 -->
+                    <article class="tarjeta-proyecto">
+                        <figure>
+                            <img src="proyecto_2.png" class="imagen-proyecto" alt="Captura de la fanpage de Los Simpsons">
+                        </figure>
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Proyecto 1</h3>
+                            <p>FanPage de Los Simpsons</p>
+                            <a href="https://baltazargarciauade.github.io/actividad_clase3_disenio_web/"
+                               target="_blank"
+                               class="enlace-proyecto">
+                                Ver Proyecto
+                            </a>
+                        </div>
+                    </article>
 
-                <!-- Proyecto 3 -->
-                <div class="tarjeta-proyecto">
-                    <img src="el nexo.jpeg" class="imagen-proyecto" alt="Proyecto 3">
-                    <div class="imagen-proyecto">
-                    </div>
-                    <div class="contenido-proyecto">
-                        <div class="titulo-proyecto">Proyecto 3</div>
-                        <p>Proyecto de sitio web "El Nexo"</p>
-                        <a href="https://augussossich.github.io/elnexo/#inicio" target="_blank" class="enlace-proyecto">Ver Proyecto</a>
-                    </div>
+               
+                    <article class="tarjeta-proyecto">
+                        <figure>
+                            <img src="aureon_proyecto1.png" class="imagen-proyecto" alt="Captura del proyecto de tienda de tecnología">
+                        </figure>
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Proyecto 2</h3>
+                            <p>Proyecto de tienda de tecnología</p>
+                            <a href="https://baltaagarcia.github.io/aureola-js/"
+                               target="_blank"
+                               class="enlace-proyecto">
+                                Ver Proyecto
+                            </a>
+                        </div>
+                    </article>
+
+        
+                    <article class="tarjeta-proyecto">
+                        <figure>
+                            <img src="el nexo.jpeg" class="imagen-proyecto" alt="Captura del sitio web El Nexo">
+                        </figure>
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Proyecto 3</h3>
+                            <p>Proyecto de sitio web "El Nexo"</p>
+                            <a href="https://augussossich.github.io/elnexo/#inicio"
+                               target="_blank"
+                               class="enlace-proyecto">
+                                Ver Proyecto
+                            </a>
+                        </div>
+                    </article>
                 </div>
-            </div>
-        </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 - Ficha personal de Baltazar Garcia - Diseño y Desarrollo Web</p>
+        </footer>
     </div>
 </body>
 </html>
